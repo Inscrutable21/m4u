@@ -377,3 +377,21 @@ h1, h2, h3, h4, h5, h6, .headline h1, .headline h2, .headline h3, .headline h4, 
         padding: 0 15px;
     }
 }
+/* Footer text color fix */
+.bi-footer-widget .about-widget p,
+.bi-footer-widget .menu-widget ul li a,
+.bi-footer-widget h3,
+.bi-footer-social ul li a,
+.logo-mail h3 a {
+    color: #000000 !important;
+}
+/* Center align portfolio/project section text */
+.bi-portfolio-item-4 .portfolio-text {
+    text-align: center !important;
+}
+/* Hide about section images in mobile view */
+@media (max-width: 767px) {
+    .bi-about-img-wrapper4 {
+        display: none !important;
+    }
+}
