@@ -395,3 +395,4 @@ h1, h2, h3, h4, h5, h6, .headline h1, .headline h2, .headline h3, .headline h4, 
         display: none !important;
     }
 }
+/* Force black text only for the about-widget inside footer */
